@@ -1,0 +1,56 @@
+.center {
+  text-align: center;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+img {
+  display: inline;
+  width: 200px;
+  height: 100px;
+}
+#footer {
+  width: 100%;
+  border-top: solid 2px black;
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+}
+html {
+  box-sizing: 'border-box'
+}
+#parent-input {
+  width: 160px;
+  margin: 0 auto 0 auto;
+}
+.guess {
+/* font and padding interact with eachother, Don't know the relationship
+to make a square*/
+  display: inline;
+  font-size: 60px;
+  border: 1px solid black;
+  padding: 0 25px;
+  border-radius: 10%;
+}
+#input-parent {
+  position: relative;
+  margin: 5% auto 50px;
+  width: 160px;
+}
+#player-input {
+  border-radius: 100%;
+  height: 150px;
+  width: 150px;
+  font-size: 60px;
+}
+#submit {
+  border-radius: 100%;
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  top: 110px;
+  left: 110px;
+}
+
+
